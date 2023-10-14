@@ -35,11 +35,13 @@ void main() {
   print('Falso = ${false}');*/
   var A = 'Mauricio';
   var nome = '$A';
+  // ignore: unused_local_variable
   const pi = 3.14;
   nome = '$nome';
   String sobrenome = 'Cezar Lima Pantoja';
-  int idade = 43;
+  // ignore: unused_local_variable
   double altura = 1.72;
+  // ignore: unused_local_variable
   bool adulto = true;
 
   print('\nNome: \n' +
